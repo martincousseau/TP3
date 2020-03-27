@@ -11,3 +11,19 @@ function truncateTest(){
     console .log(truncate( "truncated text" , 10 ));
     
 }
+
+function isPalindromeTest() {
+
+    console .log(isPalindrome( "bonjour" )); // => false
+    console .log(isPalindrome( "toto" )); // => false
+    console .log(isPalindrome( "kayak" )); // => true
+    console .log(isPalindrome( "ressasser" )); // => true
+
+}
+
+function swapCaseTest (){
+
+    console .log(swapCase( "HELLO" )); // => hello
+    console .log(swapCase( "bye" )); // => BYE
+    console .log(swapCase( "GooD NighT" )); // => gOOd nIGHt
+}
